@@ -1,5 +1,32 @@
-@media screen and (min-width: 1200px) {
-    .conteanir {
-      width: 1200px;
-    }
+@media screen and (min-width: 1440px) {
+  .conteanir {
+    width: 1200px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* padding-left: 15px;
+padding-right: 15px; */
   }
+  /* .list-title-one {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    margin: 136px;
+  } */
+  .section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 1.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+}
