@@ -41,9 +41,9 @@ cursor {
   .mobile-menu {
     display: none;
   }
-  .social-icon-antenna{
+  /* .social-icon-antenna{
     display: none;
-  }
+  } */
 }
 @media screen and (min-width: 768px) {
   .mobile-menu-open {
@@ -234,10 +234,9 @@ cursor {
   font-family: "Roboto";
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-  margin-top: 264px;
+  margin-top: 88px;
 }
 .list-title-one {
-  position: absolute;
   width: 320px;
   font-family: "Roboto";
   font-style: normal;
@@ -680,8 +679,8 @@ color: #8E8F99;
   margin: 0 15px;
   color: var(--white);
   gap: 72px;
-  flex-wrap: wrap;
- 
+ flex-direction: column;
+ align-items: center;
 }
 .social-link-footer {
   display: flex;
@@ -751,7 +750,7 @@ color: #8E8F99;
   cursor: pointer;
   width: 165px;
 height: 40px;
-/* margin-top: 16px; */
+margin-top: 16px;
 }
 .form-footer {
   display: flex;

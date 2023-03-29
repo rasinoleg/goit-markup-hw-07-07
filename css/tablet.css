@@ -80,16 +80,10 @@
   .list-text-studio {
     width: 356px;
   }
-  .footer {
-    padding-top: 96px;
-    padding-bottom: 96px;
-    background: #2e2f42;
-    display: flex;
-    flex-wrap: nowrap;
-  }
   .footer-box-one {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
   }
   .text-footer {
     line-height: 24px;
@@ -100,8 +94,15 @@
     margin-top: 17px;
     margin-left: 108px;
   }
-  
-  .footer-logo {
+  .button-subscribe {
+  margin-bottom: 16px;
+  }
+  .email-footer {
+    width: 264px;
+}
+  .footer-box {
+height: 80px;
+padding-bottom: 115px;
   }
   .form-footer {
     display: flex;
@@ -112,21 +113,30 @@
     gap: 24px;
   }
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .section-one {
-    max-width: 767px;
-  margin: 0 auto;
-   padding-top: 112px;
-   padding-bottom: 112px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg@2x.jpg);
-      background-image: no-repeat;
-      background-position: center;
+@media screen and (min-device-pixel-ratio: 1) and (min-width: 768px) and (max-width: 1199px),	
+	screen and (min-resolution : 96dpi) and (min-width: 768px) and (max-width: 1199px),
+	screen and (min-resolution : 1dppx) and (min-width: 768px) and (max-width: 1199px){
+	.section-one {
+	background-image:linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+	url(../images/people-office-1.jpg);
+	}
+	}
+	
+	@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+	screen and (min-resolution : 192dpi) and (min-width: 768px) and (max-width: 1199px),
+	screen and (min-resolution : 2dppx) and (min-width: 768px) and (max-width: 1199px){
+	.section-one  {
+    background-image:linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+	url(../images/Dark-bg-2X-tablet.jpg);
+	}
+  .social-icon-antenna{
+    display: none;
   }
 }
 /* .section-five{

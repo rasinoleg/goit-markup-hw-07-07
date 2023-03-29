@@ -1,6 +1,81 @@
 @media screen and (min-width: 1200px) {
-  .container { max-width: 1198px; } 
+  .container { max-width: 1200px; } 
   .list-professions{
     flex-wrap: nowrap;
+    flex-direction: row;
   }
+  .address {
+    margin-left: auto;
+  }
+  .auth-nav-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    display: flex;
+    gap: 40px;
+  }
+  .section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .advantages{
+    width: 1128px;
+  }
+  .list-title-studio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.list-text-studio {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.list-title-one {
+  
+  font-size: 56px;
+  line-height: 1.07;
+  
+  
+  
+  width: 496px;
+  
+  margin: 0 auto;
+ 
+}
+.button-one {
+  margin-left: 605px;
+}
  }
+ 
+ 
+ @media screen and (min-width: 1200px) {
+  .section-one {	
+    padding-bottom: 188px;
+    
+    background-image:linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ), url(../images/people-office-1.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-one {
+      background-image:linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/people-office-2X.jpg);
+    }
+    } 
+  }
