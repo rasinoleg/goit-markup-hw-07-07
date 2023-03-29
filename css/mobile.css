@@ -6,7 +6,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-one {
-    width: 1440px;
+    max-width: 480px;
   margin: 0 auto;
    padding-top: 112px;
    padding-bottom: 112px;
@@ -165,7 +165,16 @@
     opacity: 0;
     pointer-events: none;
   }
- 
+  .text-footer {
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 268px;
+    margin-top: 17px;
+    margin-left: 80px;
+  }
+  
   
   
  
