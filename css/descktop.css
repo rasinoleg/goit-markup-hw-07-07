@@ -75,7 +75,7 @@
   .title-What {
     display: flex;
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-family: "Roboto";
     font-size: 36px;
     line-height: 40px;

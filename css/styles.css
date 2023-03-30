@@ -279,12 +279,9 @@ cursor {
 }
 .list-professions {
   display: flex;
-  justify-content: center;
-  padding-left: 16px;
   padding-right: 16px;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 72px;
 }
 .list-title-studio {
   font-family: "Roboto";
@@ -307,8 +304,8 @@ cursor {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 72px;
-  width: 396px;
-  height: 48px;
+  /* width: 396px;
+  height: 48px; */
 }
 /* секция 4 */
 .section-four {
@@ -353,6 +350,7 @@ cursor {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 72px;
 }
 .list-title-our-team {
   font-weight: 500;
@@ -415,8 +413,8 @@ cursor {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  
+  margin-bottom: 72px;
 }
 .social-box {
   display: flex;

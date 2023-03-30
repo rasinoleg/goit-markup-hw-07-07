@@ -34,8 +34,16 @@
     margin-bottom: -1px;
   }
   .list-text-studio-heder {
-    width: 264px;
     height: 72px;
+    position: relative;
+    padding: 24px 0;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+    text-decoration: none;
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   }
   .list-text {
     position: relative;
@@ -83,7 +91,7 @@
     margin-top: 17px;
     margin-left: 108px;
   }
-  
+
   .button-subscribe {
     margin-bottom: 16px;
   }
@@ -155,4 +163,3 @@
     display: none;
   }
 }
-
