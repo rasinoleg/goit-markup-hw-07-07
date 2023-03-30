@@ -155,14 +155,26 @@
     color: #f4f4fd;
     width: 268px;
     margin-top: 17px;
-    margin-left: 80px;
+    
   }
   .button-one {
     margin-left: 129px;
   }
-  .advantages {
+  /* .advantages {
     width: 100%;
-  }
+  } */
+  .email-footer {
+    width: 398px;
+}
+.subscribe-media {
+ display: flex;
+ justify-content: center;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
   @media screen and (min-width: 480px) {
     .section-one {
       margin: auto;

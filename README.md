@@ -8,6 +8,14 @@
   --white: #ffffff;
   --ocean: #404bbf;
 }
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  min-height: 320px;
+}
 h1,
 h2,
 h3,

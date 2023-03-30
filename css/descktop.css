@@ -88,6 +88,7 @@
 }
   .footer-box-one {
     flex-wrap: nowrap;
+    margin-left: 100px;
 }
 .form-footer {
   margin-left: auto;
@@ -103,6 +104,32 @@
 /* .list-markers  {
   display: flex;
 } */
+.text-footer {
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 268px;
+  margin-top: 17px;
+  /* margin-left: 80px; */
+  /* display: flex; */
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-box {
+  height: 80px;
+  padding-bottom: 115px;
+  margin-left: 80px;
+}
+.social-media {
+  display: flex;
+  justify-content: flex-start;
+}
+.subscribe {
+  margin-left: 50px;
+}
 .advantages {
   width: calc((100% - 72px) / 4);
   margin-bottom: 0;
