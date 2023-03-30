@@ -21,9 +21,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .advantages {
-    width: 1128px;
-  }
+  
   .list-title-studio {
     font-family: "Roboto";
     font-style: normal;
@@ -102,28 +100,34 @@
 .button-subscribe:focus {
   background: #4d5ae5;
 }
+/* .list-markers  {
+  display: flex;
+} */
+.advantages {
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 0;
+}
 }
 @media screen and (min-width: 1200px) {
   .section-one {
-    padding-top: 188px;
-    padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-1.jpg);
+    height: 600px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .section-one {
+.section-one {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-2X.jpg);
-      /* max-height: 600px; */
     }
   }
 }
+
 

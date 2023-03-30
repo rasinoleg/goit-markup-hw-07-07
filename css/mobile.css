@@ -2,7 +2,7 @@
   .container {
     max-width: 428px;
   }
-  
+
   .list-markers {
     list-style-type: none;
   }
@@ -105,16 +105,15 @@
     text-decoration: none;
   }
   .mobail-social-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--iris);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--iris);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   .mobile-social-list {
     display: flex;
     gap: 56px;
@@ -133,7 +132,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-   .mobile-nav-studio {
+  .mobile-nav-studio {
     margin-bottom: 40px;
   }
   .mobile-nav-portfolio {
@@ -158,23 +157,37 @@
     margin-top: 17px;
     margin-left: 80px;
   }
- 
   .button-one {
     margin-left: 129px;
-}
-  /* .footer-logo{
-    width: 268px;
-height: 72px;
-left: 80px;
-  } */
- 
- 
-  
-  
-  
- 
- 
-  
-  
-  
+  }
+  .advantages {
+    width: 100%;
+  }
+  @media screen and (min-width: 480px) {
+    .section-one {
+      margin: auto;
+      max-width: 1440px;
+      background-color: var(--title-text-color);
+      background-size: cover;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-mobile-1Х.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 432px;
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .section-one {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/Dark-bg-2X-mobile.jpg);
+      }
+    }
+  }
 }
