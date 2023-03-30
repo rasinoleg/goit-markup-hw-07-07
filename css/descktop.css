@@ -1,8 +1,9 @@
 @media screen and (min-width: 1200px) {
-  .container { max-width: 1200px; } 
-  .list-professions{
+  .container {
+    max-width: 1200px;
+  }
+  .list-professions {
     flex-wrap: nowrap;
-    flex-direction: row;
   }
   .address {
     margin-left: auto;
@@ -20,62 +21,109 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .advantages{
+  .advantages {
     width: 1128px;
   }
   .list-title-studio {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
+  }
+  .list-text-studio {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .list-title-one {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rectangle-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .social-icon-antenna {
+    width: 64px;
+    height: 64px;
+  }
+  .list-title-one {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .photo-one {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+    gap: 24px;
+  }
+  .title-What {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+    font-family: "Roboto";
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  .button-one {
+    margin-left: 500px;
 }
-.list-text-studio {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #434455;
+  .footer-box-one {
+    flex-wrap: nowrap;
 }
-.list-title-one {
-  
-  font-size: 56px;
-  line-height: 1.07;
-  
-  
-  
-  width: 496px;
-  
-  margin: 0 auto;
- 
+.form-footer {
+  margin-left: auto;
 }
-.button-one {
-  margin-left: 605px;
+.subscribe-media {
+  margin-left: auto;
 }
- }
- 
- 
- @media screen and (min-width: 1200px) {
-  .section-one {	
+
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background: #4d5ae5;
+}
+}
+@media screen and (min-width: 1200px) {
+  .section-one {
+    padding-top: 188px;
     padding-bottom: 188px;
-    
-    background-image:linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)
-  ), url(../images/people-office-1.jpg);
-    }
-    @media (min-device-pixel-ratio: 2),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-1.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .section-one {
-      background-image:linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ), url(../images/people-office-2X.jpg);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2X.jpg);
+      /* max-height: 600px; */
     }
-    } 
   }
+}
+

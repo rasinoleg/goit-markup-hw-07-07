@@ -2,23 +2,7 @@
   .container {
     max-width: 428px;
   }
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .section-one {
-    max-width: 480px;
-  margin: 0 auto;
-   padding-top: 112px;
-   padding-bottom: 112px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-mobile-1Х.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-  }
-}
+  
   .list-markers {
     list-style-type: none;
   }
@@ -174,12 +158,16 @@
     margin-top: 17px;
     margin-left: 80px;
   }
-  .social-icon-antenna{
-    display: none;
-  }
-  
-  
-  
+ 
+  .button-one {
+    margin-left: 129px;
+}
+  /* .footer-logo{
+    width: 268px;
+height: 72px;
+left: 80px;
+  } */
+ 
  
   
   
