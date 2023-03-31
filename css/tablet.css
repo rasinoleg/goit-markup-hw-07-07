@@ -77,6 +77,7 @@
   }
   .list-text-studio {
     margin-bottom: auto;
+    width: 356px;
 }
   .logo-secondary-link {
     color: var(--cloud);
@@ -132,6 +133,13 @@
   .subscribe{
     margin-right: 55px;
   }
+  .list-professions {
+    display: flex;
+    padding-right: 16px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    
+}
   /* .list-markers {
   display: flex;
   flex-wrap: wrap;

@@ -222,11 +222,11 @@ cursor {
   /* margin-top: 88px; */
   border: none;
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: 70px;
 }
 .list-title-one {
-  /* max-width: 320px; */
-  /* width: 100%; */
+  max-width: 320px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -237,7 +237,7 @@ cursor {
   text-transform: capitalize;
   color: #ffffff;
   padding-top: 112px;
-  margin-left: 54px;
+  /* margin-left: 54px; */
   margin-bottom: 72px;
 }
 .button-text {
@@ -253,7 +253,7 @@ cursor {
 }
 .list-professions {
   display: flex;
-  padding-right: 16px;
+  /* padding-right: 16px; */
   flex-wrap: wrap;
   column-gap: 24px;
 }
@@ -267,6 +267,7 @@ cursor {
   color: #2e2f42;
   width: 396px;
   margin-bottom: 8px;
+  width: 320px;
 }
 .list-text-studio {
   font-family: "Roboto";
@@ -277,6 +278,7 @@ cursor {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 72px;
+  width: 320px;
 }
 /* секция 4 */
 .section-four {
@@ -867,7 +869,7 @@ color: #8E8F99;
 }
 .section-one {
   margin: auto;
-  /* max-width: 1440px; */
+  /* max-width: 1200px; */
   background-color: var(--title-text-color);
   background-size: cover;
   background-image: linear-gradient(

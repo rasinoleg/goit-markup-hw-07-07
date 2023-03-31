@@ -175,6 +175,16 @@
   display: flex;
   justify-content: center;
 }
+.list-title-one {
+  margin-left: 54px;
+}
+.list-text-studio {
+  width: 396px;
+}
+.list-title-studio {
+  
+  width: 396px;
+}
 
   @media screen and (min-width: 480px) {
     .section-one {
