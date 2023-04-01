@@ -21,7 +21,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  
+
   .list-title-studio {
     font-family: "Roboto";
     font-style: normal;
@@ -49,7 +49,15 @@
     margin-right: auto;
     max-width: 496px;
   }
-
+  .modal-for-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+  }
   .rectangle-one {
     display: flex;
     align-items: center;
@@ -87,55 +95,57 @@
   }
   .button-one {
     margin-left: 500px;
-}
+  }
   .footer-box-one {
     flex-wrap: nowrap;
     margin-left: 100px;
-}
-.form-footer {
-  margin-left: auto;
-}
-.subscribe-media {
-  margin-left: auto;
-}
+  }
+  .form-footer {
+    margin-left: auto;
+  }
+  .subscribe-media {
+    margin-left: auto;
+  }
 
-.button-subscribe:hover,
-.button-subscribe:focus {
-  background: #4d5ae5;
-}
-/* .list-markers  {
+  .button-subscribe:hover,
+  .button-subscribe:focus {
+    background: #4d5ae5;
+  }
+  /* .list-markers  {
   display: flex;
 } */
-.text-footer {
-  line-height: 24px;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  width: 268px;
-  margin-top: 17px;
-  /* margin-left: 80px; */
-  /* display: flex; */
-}
-.footer {
-  display: flex;
-  justify-content: center;
-}
-.footer-box {
-  height: 80px;
-  padding-bottom: 115px;
-  margin-left: 80px;
-}
-.social-media {
-  display: flex;
-  justify-content: flex-start;
-}
-.subscribe {
-  margin-left: 50px;
-}
-.advantages {
-  width: calc((100% - 72px) / 4);
-  margin-bottom: 0;
-}
+  .text-footer {
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 268px;
+    margin-top: 17px;
+    /* margin-left: 80px; */
+    /* display: flex; */
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-box {
+    height: 80px;
+    padding-bottom: 115px;
+    margin-left: 80px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .subscribe {
+    margin-left: 50px;
+  }
+  .advantages {
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: -15px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .section-one {
@@ -149,7 +159,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-.section-one {
+    .section-one {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
@@ -158,5 +168,3 @@
     }
   }
 }
-
-

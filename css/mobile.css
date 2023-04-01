@@ -103,7 +103,6 @@
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-   
   }
   .mobail-social-item {
     display: flex;
@@ -156,7 +155,6 @@
     color: #f4f4fd;
     width: 268px;
     margin-top: 17px;
-    
   }
   .button-one {
     margin-left: 129px;
@@ -166,25 +164,45 @@
   } */
   .email-footer {
     width: 398px;
-}
-.subscribe-media {
- display: flex;
- justify-content: center;
-}
-.social-media {
-  display: flex;
-  justify-content: center;
-}
-.list-title-one {
-  margin-left: 54px;
-}
-.list-text-studio {
-  width: 396px;
-}
-.list-title-studio {
-  
-  width: 396px;
-}
+  }
+  .subscribe-media {
+    display: flex;
+    justify-content: center;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  .list-title-one {
+    margin-left: 54px;
+  }
+  .list-text-studio {
+    width: 396px;
+  }
+  .list-title-studio {
+    width: 396px;
+  }
+  .tel-menu {
+    border: none;
+  }
+  .email-menu {
+    border: none;
+  }
+  .photo {
+    display: block;
+  }
+  .modal-for-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+  }
+  /* .icon{
+    display: none;
+  } */
 
   @media screen and (min-width: 480px) {
     .section-one {
