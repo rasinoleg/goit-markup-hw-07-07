@@ -626,6 +626,10 @@ margin-top: 16px;
 .button-send:focus {
   background: var(--iris);
 }
+.social-link-footer-one:hover,
+.social-link-footer-one:focus {
+  background: #31d0aa;
+}
 .beckdrop {
   position: fixed;
   opacity: 1;
@@ -646,7 +650,7 @@ margin-top: 16px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  width: 275px;
   height: 576px;
   display: flex;
   flex-direction: column;
@@ -679,7 +683,7 @@ margin-top: 16px;
   fill: currentColor;
 }
 .name {
-  width: 360px;
+  width: 230px;
   height: 40px;
   background: #fcfcfc;
   border-radius: 4px;
@@ -689,10 +693,9 @@ margin-top: 16px;
   border: 1px solid rgba(46, 47, 66, 0.2);
 }
 .tel {
-  width: 360px;
+  width: 230px;
   height: 40px;
   background: #fcfcfc;
-  /* border-radius: 4px; */
   border: 1px solid #2e2f42;
   margin-bottom: 8px;
   margin-top: 4px;
@@ -719,10 +722,9 @@ margin-top: 16px;
 }
 
 .email {
-  width: 360px;
+  width: 230px;
   height: 40px;
   background: #fcfcfc;
-  /* border-radius: 4px; */
   margin-top: 4px;
   border: 1px solid #2e2f42;
   margin-bottom: 8px;
@@ -734,8 +736,8 @@ margin-top: 16px;
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
-line-height: 14px;
+font-size: 7px;
+line-height: 8px;
 letter-spacing: 0.04em;
 color: var(--iris);
 }
@@ -762,7 +764,7 @@ color: var(--iris);
   position: relative;
 }
 .text-modal {
-  width: 360px;
+  width: 230px;
   height: 24px;
   left: 540px;
   top: 152px;
@@ -803,7 +805,7 @@ border-radius: 2px;
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 8px;
 line-height: 14px;
 letter-spacing: 0.04em;
 color: #8E8F99;
@@ -813,10 +815,10 @@ color: #8E8F99;
   flex-direction: row;
   margin: 0 auto;
   display: block;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   gap: 10px;
-  width: 169px;
-  height: 56px;
+  width: 100px;
+  height: 40px;
   background: var(--ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -841,7 +843,7 @@ color: #8E8F99;
 .form-comment {
   display: flex;
   justify-content: center;
-  width: 360px;
+  width: 230px;
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
@@ -860,10 +862,7 @@ color: #8E8F99;
   color: rgba(46, 47, 66, 0.4);
   opacity: 20;
 } 
-.social-link-footer-one:hover,
-.social-link-footer-one:focus {
-  background: #31d0aa;
-}
+
 
 .name:focus {
   border: 1px solid #4d5ae5;

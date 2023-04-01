@@ -32,7 +32,7 @@ ul {
 cursor {
   pointer-events: painted;
 }
-/* .primary {
+ .primary {
   color: var(--navyblue);
 }
 .secondary {
