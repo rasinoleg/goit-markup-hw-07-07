@@ -137,6 +137,7 @@ color: var(--iris);
   }
   .email-footer {
     width: 264px;
+    margin-left: auto;
   }
   .footer-box {
     height: 80px;
@@ -464,6 +465,14 @@ color: var(--iris);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
   }
+  .social-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: calc((100% - 16px) / 1);
+}
 }
 @media screen and (max-width: 1199px) {
   .section-three {

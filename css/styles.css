@@ -191,12 +191,14 @@ cursor {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 40px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #4d5ae5;
   text-decoration: none;
+  width: 230px;
+  border: 1px solid rgba(46, 47, 66, 0.2);
 }
 .email {
   font-family: "Roboto";
@@ -207,6 +209,15 @@ cursor {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  width: 230px;
+  height: 40px;
+  background: #fcfcfc;
+  border: 1px solid #2e2f42;
+  margin-bottom: 8px;
+  margin-top: 4px;
+  text-indent: 38px;
+  font-size: 20px;
+  border: 1px solid rgba(46, 47, 66, 0.2);
 }
 /* Секция 1 */
 .button-one {
@@ -268,7 +279,7 @@ cursor {
   color: #2e2f42;
   width: 396px;
   margin-bottom: 8px;
-  width: 320px;
+  width: 230px;
 }
 .list-text-studio {
   font-family: "Roboto";
@@ -279,11 +290,13 @@ cursor {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 72px;
-  width: 310px;
+  width: 264px;
+  /* margin-left: 20px; */
 }
 /* секция 4 */
 .section-four {
   background: var(--cloud);
+  overflow-x: hidden;
   /* padding-bottom: 96px; */
 }
 .title-Our {
@@ -375,6 +388,7 @@ cursor {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 72px;
+  overflow-x: hidden;
 }
 .customers {
   display: flex;
@@ -423,8 +437,7 @@ cursor {
   padding-bottom: 96px;
   background: #2e2f42;
   display: flex;
-  flex-wrap: wrap;
-  
+ 
 }
 .text-footer {
   line-height: 24px;
@@ -692,7 +705,7 @@ margin-top: 16px;
   text-indent: 38px;
   border: 1px solid rgba(46, 47, 66, 0.2);
 }
-.tel {
+/* .tel {
   width: 230px;
   height: 40px;
   background: #fcfcfc;
@@ -702,7 +715,7 @@ margin-top: 16px;
   text-indent: 38px;
   font-size: 26px;
   border: 1px solid rgba(46, 47, 66, 0.2);
-}
+} */
 .mobile-social-list {
   display: flex;
   gap: 35px;
@@ -721,7 +734,7 @@ margin-top: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.email {
+/* .email {
   width: 230px;
   height: 40px;
   background: #fcfcfc;
@@ -730,6 +743,9 @@ margin-top: 16px;
   margin-bottom: 8px;
   text-indent: 38px;
   border: 1px solid rgba(46, 47, 66, 0.2);
+} */
+.email-border{
+
 }
 
 .modal-for-link{

@@ -83,7 +83,7 @@
     color: #404bbf;
     text-decoration: none;
   }
-  .tel {
+  /* .tel {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -93,8 +93,8 @@
     text-transform: capitalize;
     color: #4d5ae5;
     text-decoration: none;
-  }
-  .email {
+  } */
+  /* .email {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -103,7 +103,7 @@
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-  }
+  } */
   .mobail-social-item {
     display: flex;
     align-items: center;
@@ -191,6 +191,15 @@
   .photo {
     display: block;
   }
+  .footer-box-one {
+    display: flex;
+    padding: 0 15px;
+    margin: 0 15px;
+    color: var(--white);
+    gap: 72px;
+    flex-direction: column;
+    align-items: center;
+}
   .modal-for-link {
     font-family: "Roboto";
     font-style: normal;
@@ -266,13 +275,16 @@
     width: 360px;
     height: 40px;
     background: #fcfcfc;
-    /* border-radius: 4px; */
+    border-radius: 4px;
     border: 1px solid #2e2f42;
     margin-bottom: 8px;
     margin-top: 4px;
     text-indent: 38px;
-    font-size: 26px;
     border: 1px solid rgba(46, 47, 66, 0.2);
+    font-size: 36px;
+  }
+  .tel-border{
+    border: none;
   }
   .mobile-social-list {
     display: flex;
@@ -302,6 +314,9 @@
     margin-bottom: 8px;
     text-indent: 38px;
     border: 1px solid rgba(46, 47, 66, 0.2);
+  }
+  .email-border{
+    border: none;
   }
   
   .modal-for-link{
