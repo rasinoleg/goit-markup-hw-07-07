@@ -268,6 +268,7 @@ cursor {
   /* padding-right: 16px; */
   flex-wrap: wrap;
   column-gap: 24px;
+  justify-content: center;
 }
 .list-title-studio {
   font-family: "Roboto";
@@ -293,11 +294,14 @@ cursor {
   width: 264px;
   /* margin-left: 20px; */
 }
+
 /* секция 4 */
 .section-four {
   background: var(--cloud);
   overflow-x: hidden;
   /* padding-bottom: 96px; */
+  display: flex;
+    justify-content: center;
 }
 .title-Our {
   left: 133px;
@@ -389,6 +393,8 @@ cursor {
   column-gap: 24px;
   row-gap: 72px;
   overflow-x: hidden;
+  display: flex;
+    justify-content: center;
 }
 .customers {
   display: flex;
@@ -437,7 +443,7 @@ cursor {
   padding-bottom: 96px;
   background: #2e2f42;
   display: flex;
- 
+ justify-content: center;
 }
 .text-footer {
   line-height: 24px;

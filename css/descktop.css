@@ -21,6 +21,8 @@
     padding-top: 120px;
     padding-bottom: 120px;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
   }
 
   .list-title-studio {
@@ -447,11 +449,15 @@
 }
 .section-three{
   overflow-x: hidden;
+  display: flex;
+    justify-content: center;
 }
 }
 @media screen and (min-width: 1200px) {
   .section-one {
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
