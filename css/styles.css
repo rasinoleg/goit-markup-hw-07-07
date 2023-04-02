@@ -233,12 +233,12 @@ cursor {
   cursor: pointer;
   /* margin-top: 88px; */
   border: none;
-  display: block;
-  /* margin: 0 auto; */
-  margin-left: 70px;
+  /* display: block; */
+  margin: 0 auto;
+  /* margin-left: 70px; */
 }
 .list-title-one {
-  max-width: 320px;
+  /* max-width: 320px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
