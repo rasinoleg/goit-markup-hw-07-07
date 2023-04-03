@@ -334,7 +334,7 @@ cursor {
   flex-wrap: wrap;
   /* margin-top: 72px; */
   /* row-gap: 48px; */
-  padding-bottom: 96px;
+  gap: 72px;
 }
 .mobile-nav-studio {
   margin-bottom: 40px;
