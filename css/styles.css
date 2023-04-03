@@ -274,6 +274,7 @@ cursor {
 .section-two {
   padding-top: 96px;
   /* padding-bottom: 96px; */
+  margin-bottom: 72px;
 }
 .list-professions {
   display: flex;
@@ -302,7 +303,7 @@ cursor {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   width: 264px;
   /* margin-left: 20px; */
 }
@@ -544,6 +545,7 @@ cursor {
   /* margin-bottom: 16px; */
   display: flex;
   justify-content: center;
+  padding-bottom: 16px;
 }
 .subscribe-link-footer {
   display: flex;
@@ -950,6 +952,11 @@ cursor {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
+.advantages {
+  
+  margin-bottom: 72px;
+}
+
 
 .section-one {
   margin: auto;
@@ -965,6 +972,7 @@ cursor {
   background-position: center;
   height: 432px;
 }
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -975,4 +983,6 @@ cursor {
       ),
       url(../images/Dark-bg-2X-mobile.jpg);
   }
+ 
 }
+

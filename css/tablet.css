@@ -2,7 +2,6 @@
   .container {
     max-width: 768px;
   }
-
   .site-nav {
     display: flex;
     align-items: center;
@@ -70,6 +69,8 @@
     text-decoration: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-right: 16px;
+    margin-bottom: 12px;
+    display: block;
   }
   .section-five {
     padding-top: 96px;
@@ -129,6 +130,7 @@
     /* display: flex;
   gap: 40px; */
     padding-right: 16px;
+    margin-top: 16px;
   }
   .footer-box-one {
     flex-wrap: wrap;
@@ -145,6 +147,7 @@
   .subscribe-media {
     display: flex;
     justify-content: flex-start;
+    padding: 0;
   }
 
   .button-subscribe {
@@ -208,8 +211,9 @@
 } */
   .advantages {
     width: calc((100% - 24px) / 2);
-    margin-bottom: 96px;
+    /* margin-bottom: 72px; */
   }
+  
   .list-title-studio {
     display: block;
   }
@@ -552,4 +556,8 @@
   .social-icon-antenna {
     display: none;
   }
+}
+@media screen and (max-width: 767px) {.advantages:last-child {
+  margin-bottom: 0;
+}
 }

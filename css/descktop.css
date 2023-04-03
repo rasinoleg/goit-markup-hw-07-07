@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     padding-left: 15px;
+    padding-right: 15px;
   }
 
   .list-title-studio {
@@ -134,6 +135,7 @@
   }
   .subscribe-media {
     margin-left: auto;
+    padding: 0;
   }
 
   .button-subscribe:hover,
@@ -171,7 +173,9 @@
   .subscribe {
     margin-left: 50px;
     padding-bottom: 20px;
+    display: block;
   }
+  
   .advantages {
     width: calc((100% - 72px) / 4);
     margin-bottom: 0;
