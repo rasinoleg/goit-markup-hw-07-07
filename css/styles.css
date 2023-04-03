@@ -34,7 +34,7 @@ cursor {
 }
 .container {
   width: 100%;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   /* padding-right: 15px; */
   margin-left: auto;
   margin-right: auto;
@@ -99,6 +99,7 @@ cursor {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding-left: 16px;
 }
 .logo {
   font-family: "Raleway";
@@ -259,6 +260,9 @@ cursor {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 320px; */
 }
 .button-text {
   font-weight: 500;
@@ -349,7 +353,7 @@ cursor {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 .list-title-our-team {
   font-weight: 500;
