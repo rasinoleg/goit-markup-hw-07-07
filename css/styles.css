@@ -429,6 +429,7 @@ cursor {
   align-items: center;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 72px;
 }
 .social-item {
   display: flex;
