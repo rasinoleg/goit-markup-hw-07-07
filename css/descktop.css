@@ -143,6 +143,7 @@
   }
   .subscribe {
     margin-left: 50px;
+    padding-bottom: 20px;
   }
   .advantages {
     width: calc((100% - 72px) / 4);
@@ -438,12 +439,12 @@
   .list-text-studio {
     font-family: "Roboto";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     width: 264px;
     
 }
