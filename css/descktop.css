@@ -109,9 +109,17 @@
   flex-wrap: wrap;
   
 }
-.section-img {
+.section-four {
+  background: var(--cloud);
+  overflow-x: hidden;
+  /* padding-bottom: 96px; */
+  display: flex;
+  justify-content: center;
   padding-bottom: 120px;
 }
+/* .section-img {
+  padding-bottom: 120px;
+} */
   /* .button-one {
     margin-left: 500px;
   } */

@@ -166,8 +166,15 @@
   justify-content: center;
   column-gap: 24px;
   flex-wrap: wrap;
-  padding-bottom: 96px;
-  margin-bottom: 72px;
+  /* padding-bottom: 96px; */
+  /* margin-bottom: 72px; */
+}
+.section-four {
+  background: var(--cloud);
+  overflow-x: hidden;
+  /* padding-bottom: 96px; */
+  display: flex;
+  justify-content: center;
 }
   .email-footer {
     width: 398px;

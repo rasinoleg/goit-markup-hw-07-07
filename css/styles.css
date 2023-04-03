@@ -314,6 +314,7 @@ cursor {
   /* padding-bottom: 96px; */
   display: flex;
   justify-content: center;
+  padding-bottom: 96px;
 }
 .title-Our {
   left: 133px;
