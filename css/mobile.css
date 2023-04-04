@@ -527,6 +527,8 @@
 
   @media screen and (min-width: 480px) {
     .section-one {
+      padding-top: 112px;
+    padding-bottom: 112px;
       margin: auto;
       max-width: 1440px;
       background-color: var(--title-text-color);
